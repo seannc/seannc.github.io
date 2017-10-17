@@ -17,7 +17,23 @@
         
         .center{
             text-align:center;
+        }  
+      @keyframes fontAnim {
+        0% {
+          font-size: 20px;
         }
+        30% {
+          font-size: 50px;
+        }
+        100% {
+          font-size: 20px;
+        }
+      }
+
+      span {
+        animation: fontAnim 2s infinite;
+      }
+        
       </style>
       
       <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
