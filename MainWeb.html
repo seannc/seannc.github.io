@@ -20,18 +20,33 @@
         }  
       @keyframes fontAnim {
         0% {
-          font-size: 20px;
+          font-size: 25px;
         }
-        30% {
+        50% {
           font-size: 50px;
         }
         100% {
-          font-size: 20px;
+          font-size: 25px;
+        }
+      }
+         @keyframes rotateAnim {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
         }
       }
 
+      img {
+        animation-name: rotateAnim;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
       span {
-        animation: fontAnim 2s infinite;
+        animation: fontAnim 0.5s infinite;
       }
         
       </style>
@@ -45,7 +60,7 @@
       </div>
       
       <div class="center">
-      <img src="Images/gatesdabs.jpg" alt="dab on 'em">
+      <img src="Images/pepe.gif" alt="ree">
       </div>
   </body>
 </html>
