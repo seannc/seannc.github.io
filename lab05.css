@@ -1,0 +1,23 @@
+#display {
+    margin-top: 35vh;
+    font-size: 50pt;
+    background-color: midnightblue;
+    color: white;
+    padding: 10px;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+#num {
+    height: 50pt;
+    font-size: 50pt;
+    margin-top: 20px;
+}
+#guess {
+    height: 24pt;
+    color: white;
+    background-color: midnightblue;
+    border: none;
+}
