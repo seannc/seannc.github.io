@@ -87,21 +87,44 @@ function warning() {
     };
 };
 //I can't get this to work :(
-function next() {
-    if (ch1.style.backgroundImage = "url(imgs/i1.jpg)") {
-        document.getElementById("ch1").style.backgroundImage = "url(imgs/i4.jpg)"
-        document.getElementById("ch2").style.backgroundImage = "url(imgs/i5.jpg)"
-        document.getElementById("ch3").style.backgroundImage = "url(imgs/i6.jpg)"
-    } else if (ch1.style.backgroundImage = "url(imgs/i4.jpg)") {
-        document.getElementById("ch1").style.backgroundImage = "url(imgs/i7.jpg)"
-        document.getElementById("ch2").style.backgroundImage = "url(imgs/i8.jpg)"
-        document.getElementById("ch3").style.backgroundImage = "url(imgs/i9.jpg)"
-    } else if (ch1.style.backgroundImage = "url(imgs/i7.jpg)") {
-        document.getElementById("ch1").style.backgroundImage = "url(imgs/i10.jpg)"
-        document.getElementById("ch2").style.backgroundImage = "url(imgs/i11.jpg)"
-        document.getElementById("ch3").style.backgroundImage = "url(imgs/i12.jpg)"
+document.getElementById("next").addEventListener("click", function(){
+    if (ch1.style.backgroundImage == "url(imgs/i1.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i4.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i5.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i6.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i4.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i7.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i8.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i9.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i7.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i10.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i11.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i12.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i10.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i1.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i2.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i3.jpg)"
     }
-}; 
+}); 
+document.getElementById("prev").addEventListener("click", function(){
+    if (ch1.style.backgroundImage == "url(imgs/i1.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i10.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i11.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i12.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i4.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i1.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i2.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i3.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i7.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i4.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i5.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i6.jpg)"
+    } else if (ch1.style.backgroundImage == "url(imgs/i10.jpg)") {
+        ch1.style.backgroundImage = "url(imgs/i7.jpg)"
+        ch2.style.backgroundImage = "url(imgs/i8.jpg)"
+        ch3.style.backgroundImage = "url(imgs/i9.jpg)"
+    }
+}); 
 /*if (ch1.style.backgroundImage = "url(imgs/i1.jpg)"){
 
     document.getElementById("next").addEventListener("click",function(){
