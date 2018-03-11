@@ -34,6 +34,30 @@ var leafnoise = new Audio("leaf.mp3")
 var ehnoise = new Audio("eh.mp3")
 var slapnoise = new Audio("slap.mp3")
 var lightnoise = new Audio("light.mp3")
+var windnoise = new Audio("wind.mp3")
+var tingnoise = new Audio("ting.mp3")
+
+var bone = document.getElementById("bone")
+var btwo = document.getElementById("btwo")
+var bthree = document.getElementById("bthree")
+var bfour = document.getElementById("bfour")
+var bfive = document.getElementById("bfive")
+var bsix = document.getElementById("bsix")
+var bseven = document.getElementById("bseven")
+var beight = document.getElementById("beight")
+var bnine = document.getElementById("bnine")
+var bten = document.getElementById("bten")
+var fone = document.getElementById("factone")
+var ftwo = document.getElementById("facttwo")
+var fthree = document.getElementById("factthree")
+var ffour = document.getElementById("factfour")
+var ffive = document.getElementById("factfive")
+var fsix = document.getElementById("factsix")
+var fseven = document.getElementById("factseven")
+var feight = document.getElementById("facteight")
+var fnine = document.getElementById("factnine")
+var ften = document.getElementById("factten")
+
 
 maple.addEventListener("click", function () {
     maple.style.opacity = "0";
@@ -45,8 +69,8 @@ maple.addEventListener("click", function () {
 });
 
 flagpole.addEventListener("click", function () {
-    document.getElementById("facttwo").style.opacity = "1";
-    document.getElementById("facttwo").style.visibility = "visible";
+    btwo.style.opacity = "1";
+    btwo.style.visibility = "visible";
     if (flag.style.transform == "translateY(0px)"){
         flag.style.transform = "translateY(400px)";
         flag.style.visibility = "hidden";
@@ -57,8 +81,8 @@ flagpole.addEventListener("click", function () {
 });
 
 mountie.addEventListener("click", function () {
-    document.getElementById("factone").style.opacity = "1";
-    document.getElementById("factone").style.visibility = "visible";
+    bone.style.opacity = "1";
+    bone.style.visibility = "visible";
     ehnoise.play();
     if (hat.style.transform == "rotate(30deg)"){
         hat.style.transform = "rotate(0deg)";
@@ -68,8 +92,8 @@ mountie.addEventListener("click", function () {
 });
 
 moose.addEventListener("click", function () {
-    document.getElementById("factfour").style.opacity = "1";
-    document.getElementById("factfour").style.visibility = "visible";
+    bfour.style.opacity = "1";
+    bfour.style.visibility = "visible";
     moosenoise.play();
     if (moosehead.style.transform == "rotate(20deg)"){
         moosehead.style.transform = "rotate(0deg)";
@@ -80,30 +104,33 @@ moose.addEventListener("click", function () {
 
 tree.addEventListener("click", function () {
     leaves.classList.add("shakeclass");
-    document.getElementById("factthree").style.opacity = "1";
-    document.getElementById("factthree").style.visibility = "visible";
+    bthree.style.opacity = "1";
+    bthree.style.visibility = "visible";
     leafnoise.play();
 });
 
 beaver.addEventListener("click", function () {
     tail.classList.add("slapclass");
-    document.getElementById("factfive").style.opacity = "1";
-    document.getElementById("factfive").style.visibility = "visible";
+    bfive.style.opacity = "1";
+    bfive.style.visibility = "visible";
     slapnoise.play();
 });
 
 bigcloud.addEventListener("click", function () {
     bigcloud.style.transform = "translateX(400px)";
+    windnoise.play()
 });
 
 mediumcloud.addEventListener("click", function () {
     mediumcloud.style.transform = "translateX(500px)";
-    document.getElementById("factsix").style.opacity = "1";
-    document.getElementById("factsix").style.visibility = "visible";
+    bsix.style.opacity = "1";
+    bsix.style.visibility = "visible";
+    windnoise.play()
 });
 
 smallcloud.addEventListener("click", function () {
     smallcloud.style.transform = "translateX(600px)";
+    windnoise.play()
 });
 
 sun.addEventListener("click", function () {
@@ -193,8 +220,8 @@ moon.addEventListener("click", function () {
 });
 
 door.addEventListener("click", function () {
-    document.getElementById("factseven").style.opacity = "1";
-    document.getElementById("factseven").style.visibility = "visible";
+    bseven.style.opacity = "1";
+    bseven.style.visibility = "visible";
     lightnoise.play();
     
     if (door.style.opacity == "0"){
@@ -209,13 +236,13 @@ door.addEventListener("click", function () {
 clock.addEventListener("click", function () {
     minute.style.transform = "rotate(3600deg)"
     hour.style.transform = "rotate(3600deg)"
-    document.getElementById("facteight").style.opacity = "1";
-    document.getElementById("facteight").style.visibility = "visible";
+    beight.style.opacity = "1";
+    beight.style.visibility = "visible";
 });
 
 roof.addEventListener("click", function () {
-    document.getElementById("factnine").style.opacity = "1";
-    document.getElementById("factnine").style.visibility = "visible";
+    bnine.style.opacity = "1";
+    bnine.style.visibility = "visible";
     
     if (topflag.style.transform == "scale(1, 1)"){
         topflag.style.transform = "scale(0, 1)";
@@ -226,54 +253,154 @@ roof.addEventListener("click", function () {
 
 document.getElementById("starone").addEventListener("click", function () {
     document.getElementById("starone").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("startwo").addEventListener("click", function () {
     document.getElementById("startwo").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starthree").addEventListener("click", function () {
     document.getElementById("starthree").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starfour").addEventListener("click", function () {
     document.getElementById("starfour").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starfive").addEventListener("click", function () {
     document.getElementById("starfive").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starsix").addEventListener("click", function () {
     document.getElementById("starsix").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starseven").addEventListener("click", function () {
     document.getElementById("starseven").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("stareight").addEventListener("click", function () {
     document.getElementById("stareight").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starnine").addEventListener("click", function () {
     document.getElementById("starnine").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starten").addEventListener("click", function () {
     document.getElementById("starten").style.opacity = "0";
-    document.getElementById("factten").style.opacity = "1";
-    document.getElementById("factten").style.visibility = "visible";
+    tingnoise.play()
+    bten.style.opacity = "1";
+    bten.style.visibility = "visible";
 });
 document.getElementById("stareleven").addEventListener("click", function () {
     document.getElementById("stareleven").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("startwelve").addEventListener("click", function () {
     document.getElementById("startwelve").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starthirteen").addEventListener("click", function () {
     document.getElementById("starthirteen").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starfourteen").addEventListener("click", function () {
     document.getElementById("starfourteen").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starfifteen").addEventListener("click", function () {
     document.getElementById("starfifteen").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starsixteen").addEventListener("click", function () {
     document.getElementById("starsixteen").style.opacity = "0";
+    tingnoise.play()
 });
 document.getElementById("starseventeen").addEventListener("click", function () {
     document.getElementById("starseventeen").style.opacity = "0";
+    tingnoise.play()
+});
+
+bone.addEventListener("click", function(){
+   fone.style.visibility = "visible";
+   fone.style.opacity = "1";
+});
+btwo.addEventListener("click", function(){
+   ftwo.style.visibility = "visible";
+   ftwo.style.opacity = "1";
+});
+bthree.addEventListener("click", function(){
+   fthree.style.visibility = "visible";
+   fthree.style.opacity = "1";
+});
+bfour.addEventListener("click", function(){
+   ffour.style.visibility = "visible";
+   ffour.style.opacity = "1";
+});
+bfive.addEventListener("click", function(){
+   ffive.style.visibility = "visible";
+   ffive.style.opacity = "1";
+});
+bsix.addEventListener("click", function(){
+   fsix.style.visibility = "visible";
+   fsix.style.opacity = "1";
+});
+bseven.addEventListener("click", function(){
+   fseven.style.visibility = "visible";
+   fseven.style.opacity = "1";
+});
+beight.addEventListener("click", function(){
+   feight.style.visibility = "visible";
+   feight.style.opacity = "1";
+});
+bnine.addEventListener("click", function(){
+   fnine.style.visibility = "visible";
+   fnine.style.opacity = "1";
+});
+bten.addEventListener("click", function(){
+   ften.style.visibility = "visible";
+   ften.style.opacity = "1";
+});
+
+
+fone.addEventListener("click", function(){
+   fone.style.visibility = "hidden";
+   fone.style.opacity = "1";
+});
+ftwo.addEventListener("click", function(){
+   ftwo.style.visibility = "hidden";
+   ftwo.style.opacity = "0";
+});
+fthree.addEventListener("click", function(){
+   fthree.style.visibility = "hidden";
+   fthree.style.opacity = "0";
+});
+ffour.addEventListener("click", function(){
+   ffour.style.visibility = "hidden";
+   ffour.style.opacity = "0";
+});
+ffive.addEventListener("click", function(){
+   ffive.style.visibility = "hidden";
+   ffive.style.opacity = "0";
+});
+fsix.addEventListener("click", function(){
+   fsix.style.visibility = "hidden";
+   fsix.style.opacity = "0";
+});
+fseven.addEventListener("click", function(){
+   fseven.style.visibility = "hidden";
+   fseven.style.opacity = "0";
+});
+feight.addEventListener("click", function(){
+   feight.style.visibility = "hidden";
+   feight.style.opacity = "0";
+});
+fnine.addEventListener("click", function(){
+   fnine.style.visibility = "hidden";
+   fnine.style.opacity = "0";
+});
+ften.addEventListener("click", function(){
+   ften.style.visibility = "hidden";
+   ften.style.opacity = "0";
 });
