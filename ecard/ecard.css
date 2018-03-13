@@ -196,7 +196,7 @@ body {
 }
 
 #beavertail {
-    transform-origin: 100% 0%;
+    transform-origin: right;
     transition: 0.5s;
 }
 #beaver {
