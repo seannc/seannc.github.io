@@ -107,6 +107,11 @@ function randomFace(){
     eyes.style.width = rseyes+"%";
     nose.style.width = rsnose+"%";
     mouth.style.width = rsmouth+"%";
+    
+    hairinp.value = rshair;
+    eyesinp.value = rseyes;
+    noseinp.value = rsnose;
+    mouthinp.value = rsmouth;
 };
 
 document.getElementById("random").addEventListener("click", function(){
