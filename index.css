@@ -6,7 +6,6 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    display: inline;
 }
 .caption {
     color: white;
@@ -18,8 +17,6 @@ body{
     width: 200px;
     height: 250px;
     text-align: center;
-}
-
-.icons {
-    display: inline;
+    display: inline-block;
+    margin: 20px;
 }
