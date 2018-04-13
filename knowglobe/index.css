@@ -1,0 +1,64 @@
+body {
+    background-image: url(imgs/water.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#logo {
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 200px;
+    margin: auto;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.button {
+    text-decoration: none;
+    color: #0071bc;
+    background-color: white;
+    padding: 15px 90px;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+}
+
+#play {
+    top: 300px;
+}
+#study {
+    top: 500px;
+}
+#about {
+    top: 700px;
+}
+
+.button:hover {
+    background-color: #0071bc;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        height: 150px;
+        bottom: 900px;
+    }
+    .button{
+        bottom: 800px;
+    }
+}
