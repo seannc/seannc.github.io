@@ -1,0 +1,378 @@
+.st0{fill:url(#night_2_);}
+.st1{fill:url(#SVGID_1_);}
+.st2{opacity:0.53;fill:#006937;}
+.st3{fill:url(#SVGID_2_);}
+.st4{fill:#73C494;}
+.st5{fill:#C2AD93;}
+.st6{fill:#7B7774;}
+.st7{fill:#8A7765;}
+.st8{fill:#DCC7AE;}
+.st9{fill:#8D6C42;}
+.st10{fill:#FFFFFF;}
+.st11{fill:#F0E77B;}
+.st12{fill:#D1C665;}
+.st13{fill:#F0E78F;}
+.st14{fill:#FF0000;}
+.st15{fill:url(#moon_2_);}
+.st16{fill:url(#starseventeen_2_);}
+.st17{fill:url(#starsixteen_2_);}
+.st18{fill:url(#starfifteen_2_);}
+.st19{fill:url(#starfourteen_2_);}
+.st20{fill:url(#starthirteen_2_);}
+.st21{fill:url(#startwelve_2_);}
+.st22{fill:url(#stareleven_2_);}
+.st23{fill:url(#starten_2_);}
+.st24{fill:url(#starnine_2_);}
+.st25{fill:url(#stareight_2_);}
+.st26{fill:url(#starseven_2_);}
+.st27{fill:url(#starsix_2_);}
+.st28{fill:url(#starfive_2_);}
+.st29{fill:url(#starfour_2_);}
+.st30{fill:url(#starthree_2_);}
+.st31{fill:url(#startwo_2_);}
+.st32{fill:url(#starone_2_);}
+.st33{fill:#193320;}
+.st34{fill:url(#day_2_);}
+.st35{fill:url(#SVGID_3_);}
+.st36{fill:url(#SVGID_4_);}
+.st37{fill:url(#SVGID_5_);}
+.st38{fill:#4D4D4D;}
+.st39{fill:url(#SVGID_6_);}
+.st40{fill:#333333;}
+.st41{fill:url(#grasthree_1_);}
+.st42{fill:#A51F00;}
+.st43{fill:#4C2609;}
+.st44{fill:url(#grasstwo_2_);}
+.st45{fill:url(#SVGID_7_);}
+.st46{fill:url(#bigcloud_2_);}
+.st47{fill:url(#medcloud_1_);}
+.st48{fill:url(#smallcloud_2_);}
+.st49{fill:url(#SVGID_8_);}
+.st50{fill:url(#SVGID_9_);}
+.st51{fill:url(#SVGID_10_);}
+.st52{fill:url(#SVGID_11_);}
+.st53{fill:url(#grassone_2_);}
+.st54{fill:#E89A77;}
+.st55{fill:#FFAC83;}
+.st56{fill:#935337;}
+.st57{fill:#B58526;}
+.st58{fill:#F7DF00;}
+.st59{fill:#491D09;}
+.st60{fill:#CC0000;}
+.st61{fill:none;}
+.st62{fill:#A30000;}
+.st63{fill:#F4C076;}
+.st64{fill:#7C4D15;}
+.st65{fill:#3F201D;}
+.st67{fill:#562C27;}
+.st66{fill:#6B5849;}
+.st68{fill:#846851;}
+.st69{fill:#51443A;}
+.st70{fill:#543621;}
+.st71{fill:#700000;}
+.st72{opacity:0.5;}
+.st73{opacity:0.3;}
+.st74{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.st75{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.4098,5.4098;}
+.st76{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.4095,5.4095;}
+.st77{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.1735,4.1735;}
+.st78{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.0786,5.0786;}
+.st79{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.1215,4.1215;}
+.st80{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.5807,5.5807;}
+.st81{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.7511,4.7511;}
+.st82{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.7895,5.7895;}
+.st83{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.7201,4.7201;}
+.st84{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.2216,5.2216;}
+.st85{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.1722,5.1722;}
+.st86{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.273,5.273;}
+.st87{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.2731,5.2731;}
+.st88{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.172,5.172;}
+.st89{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.7896,5.7896;}
+.st90{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.7512,4.7512;}
+.st91{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.1217,4.1217;}
+.st92{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:5.0787,5.0787;}
+.st93{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:4.1736,4.1736;}
+
+body {
+    background-image: url(red.jpg);
+}
+
+#card {
+    width: 70vw;
+    margin: auto;
+    box-shadow: 10px 10px 8px rgba(20,20,20, 0.4);
+    position: relative;
+}
+#maple {
+    transition: 0.5s;
+    cursor: pointer;
+}
+#greeting {
+    transition: 0.5s;
+}
+#left, #right {
+    transition: 2s;
+}
+#flagup {
+    transform: translateY(400px);
+    transition: 2s;
+    visibility: hidden;
+}
+#flagpole {
+    cursor: pointer;
+    transition: 2s;
+}
+#mountiehat {
+    transform-origin: bottom;
+    transition: 0.7s;
+}
+#mountie {
+    cursor: pointer;
+    transition: 0.7s;
+}
+#moose {
+    cursor: pointer;
+    transition: 1s;
+}
+#moosehead {
+    transform-origin: right;
+    transition: 1s;
+}
+#tree{
+    transition: 1s;
+    transform-origin: center;
+}
+#trunk {
+    cursor: pointer;
+    transition: 1s;
+}
+.shakeclass {
+    animation: shake 1s;
+}
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(10deg);
+    }
+    30% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(10deg);
+    }
+    80% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.slapclass {
+    animation: slap 0.5s;
+}
+
+@keyframes slap {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#beavertail {
+    transform-origin: right;
+    transition: 0.5s;
+}
+#beaver {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#bigcloud, #mediumcloud, #smallcloud {
+    transition: 1s;
+    cursor: pointer;
+}
+#sun {
+    transition: 1s;
+    cursor: pointer;
+}
+#day {
+    transition: 1s;
+}
+#grassone {
+    transition: 1s;
+}
+#grasstwo {
+    transition: 1.3s;
+}
+#grassthree {
+    transition: 1.5s;
+}
+#mountains {
+    transition: 1s;
+}
+#moon {
+    cursor: pointer;
+}
+#door {
+    transition: 0.5s;
+    cursor: pointer;
+}
+#windows {
+    transition: 0.5s;
+}
+.minuteclass {
+    animation: rotate 2s infinite;
+}
+
+#minute {
+    transition: 15s;
+    transform-origin: bottom;
+}
+#hour {
+    transition: 30s;
+    transform-origin: bottom;
+}
+#clock {
+    cursor: pointer;
+}
+#topflagup {
+    transform: scale(0, 1);
+    transition: 1s;
+    transform-origin: left;
+}
+#roof {
+    cursor: pointer;
+}
+#starone {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#startwo {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starthree {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starfour {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starfive {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starsix {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starseven {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#stareight {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starnine {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starten {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#stareleven {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#startwelve {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starfourteen {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starfifteen {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starsixteen {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starseventeen {
+    cursor: pointer;
+    transition: 0.5s;
+}
+#starthirteen {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(255,0,0,0.5);
+    border-color: red;
+    border-radius: 20%;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.factbox {
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    text-align:center;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(255,0,0,0.7);
+    border-radius: 50px;
+    margin: auto;
+    position: absolute;
+    font-family: sans-serif;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+.facttext {
+    width: 70%;
+    height: 70%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 10%;
+}
+#menu {
+    width: 10vw;
+    position: fixed;
+    left: 4%;
+    top:50px;
+}

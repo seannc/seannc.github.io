@@ -1,0 +1,19 @@
+input {
+    width: 60px
+}
+#number {
+    background-color: black;
+    color: white;
+}
+#random {
+    background-color: pink;
+    color: #ce0067;
+}
+#plus {
+    background-color: grey;
+    color: white;
+}
+#display div {
+    margin: 10px;
+    display: inline-block;
+}

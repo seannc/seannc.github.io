@@ -20,3 +20,9 @@ body{
     display: inline-block;
     margin: 20px;
 }
+
+.download {
+    color: #ffb100;
+    text-decoration: none;
+    font-family: sans-serif;
+}

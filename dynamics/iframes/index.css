@@ -1,0 +1,9 @@
+/*.videos:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}*/
+
+.videos  {
+    width: 20vw;
+    height: 20vh;
+}
