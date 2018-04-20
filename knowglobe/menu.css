@@ -1,0 +1,56 @@
+.menuitem {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+#europe {
+    right: 50px;
+}
+
+#namerica {
+    left: 50px;
+}
+
+.menuicon {
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom-left-radius: 50px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.regioncap {
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+#caption {
+    color: white;
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 25pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#menu {
+    top: 250px;
+    position: absolute;
+    width: 90vw;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+#locked {
+    filter: grayscale(100%);
+}

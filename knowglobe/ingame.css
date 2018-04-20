@@ -1,0 +1,221 @@
+body {
+    background-image: url(imgs/water.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#logotop {
+    width: 500px;
+    left:20px;
+    top:20px;
+    position: absolute;
+}
+
+#header {
+    height: 200px;
+    top:0px;
+}
+
+.icon {
+    height:50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#play {
+    right: 130px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+#study  {
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.other {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.other:hover {
+    opacity: 1;
+}
+
+.iconcap {
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title{
+    color: white;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+#europemapsvg {
+    width: 60%;
+    left:0px;
+    right:0px;
+    top: 250px;
+    margin: auto;
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom-left-radius: 50px;
+    transition: 0.5s;
+}
+
+#flagmap {
+    width: 60%;
+    left:0px;
+    right:0px;
+    top: 250px;
+    margin: auto;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 1300px) {
+    #europemapsvg {
+        width: 40%;
+    }
+    #flagmap {
+        width: 40%;
+    }
+    #flagsleft {
+        left: 80px;
+    }
+    #flagsright {
+        right: 80px;
+    }
+}
+
+#contentpage {
+    top: 250px;
+    right: 50px;
+    text-align: center;
+    position: absolute;
+    visibility: hidden;
+}
+
+#flag {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#countryname {
+    color: white;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    margin-bottom: 15px;
+}
+
+.buttonclass {
+    text-decoration: none;
+    color: #0071bc;
+    background-color: white;
+    padding: 5px 50px;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+}
+
+.buttonclass:hover {
+    background-color: #0071bc;
+    color: white;
+    cursor: pointer;
+}
+
+#reset, #clear {
+    width: 60px;
+    margin-bottom: 15px;
+    padding-right: 60px;
+}
+
+#whatsthis {
+    font-size: 14pt;
+    padding: 6px 0px 6px 20px;
+}
+
+#thatsthis {
+    text-align: center;
+    margin: 15px;
+    font-size: 15pt;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#sidebuttons {
+    right: 0px;
+    top: 200px;
+    position: absolute;
+}
+
+.flagtab {
+    width: 100px;
+    height: 66px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.flagtabhidden {
+    width: 100px;
+    height: 66px;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+#flagsleft {
+    width: 150px;
+    left: 180px;
+    position: absolute;
+    top: 150px;
+}
+
+#flagsright {
+    width: 150px;
+    right: 180px;
+    position: absolute;
+    top: 150px;
+}
+
+#cursor {
+    height: 40px;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    margin: 5px;
+    display: none;
+}
