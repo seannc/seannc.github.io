@@ -42,7 +42,9 @@ var ukf = document.getElementById("ukf"),
     turkeyf = document.getElementById("turkeyf")
 
 var cursor = document.getElementById("cursor"),
-    thename = "";
+    thename = "",
+    wrongpop = document.getElementById("wrongwarning"),
+    helppop = document.getElementById("whatwarning")
 
 // TURNS CURSOR TO FLAG
 function flagCursor(el){
@@ -178,7 +180,8 @@ function leftPick(cname){
         cname.style.display = "none";
         cursor.style.display = "none";
         leftnum++;
-        console.log(leftnum);
+        thename = "";
+        //console.log(leftnum);
     } else{
         wrongnum++;
         console.log(wrongnum);
@@ -204,8 +207,11 @@ function leftPick(cname){
     ukf.style.display = "inline-block";
     }
     
-    if(wrongnum == 5){
-        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help");
+    if(wrongnum == 10){
+        //document.getElementById("wrongwarning").style.opacity = 1;
+        //document.getElementById("wrongwarning").style.display = "block";
+        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
+        wrongnum = 0;
     }
 };
 
@@ -214,9 +220,11 @@ function rightPick(cname){
         cname.style.display = "none";
         cursor.style.display = "none";
         rightnum++;
-        console.log(rightnum);
+        thename = "";
+        //console.log(rightnum);
     } else{
         wrongnum++;
+        console.log(wrongnum);
     }
     
     if(rightnum == 1){
@@ -239,8 +247,11 @@ function rightPick(cname){
     polandf.style.display = "inline-block";
     }
     
-    if(wrongnum == 5){
-        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help");
+    if(wrongnum == 10){
+        //document.getElementById("wrongwarning").style.opacity = 1;
+        //document.getElementById("wrongwarning").style.display = "block";
+        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
+        wrongnum = 0;
     }
 };
 
@@ -469,6 +480,19 @@ document.getElementById("whatsthis").addEventListener("click", function(){
         help.innerHTML = "Poland";
         help.style.opacity = 1;
     } else {
-        alert("If you're stuck, pick a flag and hit this button to find out the country's name.")
+        helppop.style.visibility = "visible";
+        helppop.style.opacity = "1";
     }
+});
+
+helppop.addEventListener("click", function(){
+    helppop.style.visibility = "hidden";
+    helppop.style.opacity = "0";
+});
+
+//SCOREKEEPING
+var score = document.getElementById("score")
+
+document.getElementById("europemapsvg").addEventListener("click", function(){
+    score.innerHTML = leftnum+rightnum+"/20";
 });

@@ -3,38 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Europe</title>
+    <title>Play</title>
     <link href="menu.css" type="text/css" rel="stylesheet">
     <link href="ingame.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500" rel="stylesheet">
+    <link rel="icon" href="imgs/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
-        <a href="index.html">
+    <a href="index.html">
             <img id="logotop" src="imgs/logohor.png"></a>
-            <div id="icons">
-                <a href="play.html" id="play">
+    <div id="icons">
+        <a href="play.html" id="play" class=other>
                     <img class="icon" src="imgs/play.png">
                     <div class="iconcap" id="playcap">play</div>
                 </a>
-                <a href="study.html" id="study" class="other">
+        <a href="study.html" id="study" class=other>
                     <img class="icon" src="imgs/study.png">
                     <div class="iconcap" id="studycap">study</div>
                 </a>
-            </div>
-            <div id="title">play</div>
+    </div>
+    <div id="title">play</div>
     <div id=caption>
         Put your knowledge to the test
     </div>
     <div id=menu>
         <div class="menuitem" id="namerica">
-            <a href="" class=regioncap>North America</a>
+            <a href="" class=regioncap>north america</a>
             <a href=""><img src="imgs/northamerica.svg" class="menuicon" id=locked></a>
-            <div class="regioncap">Locked</div>
+            <div class="regioncap">locked</div>
         </div>
         <div class="menuitem" id="europe">
-            <a href="playeurope.html" class=regioncap>Europe</a>
-            <a href="playeurope.html"><img src="imgs/europe.svg" class=menuicon></a>
+            <div class=options id="europebuttons">
+                <a class=buttonop href="playeurope.html">geography game</a>
+                <a class=buttonop href="quizeurope.html">knowledge quizzes</a>
+            </div>
+            <a href="playeurope.html" class=regioncap>europe</a>
+            <img id=eurobg src="imgs/europe.svg" class=menuicon>
+        
         </div>
     </div>
 

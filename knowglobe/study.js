@@ -25,6 +25,27 @@ var uk = document.getElementById("uk"),
     greece = document.getElementById("greece"),
     turkey = document.getElementById("turkey")
 
+var ukbut = document.getElementById("ukbut"),
+    irelandbut = document.getElementById("irelandbut"),
+    portugalbut = document.getElementById("portugalbut"),
+    spainbut = document.getElementById("spainbut"),
+    francebut = document.getElementById("francebut"),
+    belgiumbut = document.getElementById("belgiumbut"),
+    netherlandsbut = document.getElementById("netherlandsbut"),
+    germanybut = document.getElementById("germanybut"),
+    austriabut = document.getElementById("austriabut"),
+    italybut = document.getElementById("italybut"),
+    polandbut = document.getElementById("polandbut"),
+    ukrainebut = document.getElementById("ukrainebut"),
+    norwaybut = document.getElementById("norwaybut"),
+    swedenbut = document.getElementById("swedenbut"),
+    finlandbut = document.getElementById("finlandbut"),
+    russiabut = document.getElementById("russiabut"),
+    croatiabut = document.getElementById("croatiabut"),
+    slovakiabut = document.getElementById("slovakiabut"),
+    greecebut = document.getElementById("greecebut"),
+    turkeybut = document.getElementById("turkeybut")
+
 function countryClick(title, name){
     contentpage.style.visibility = "visible";
     flag.src = "imgs/flags/"+title+".png";
@@ -110,4 +131,181 @@ greece.addEventListener("click", function(){
 
 turkey.addEventListener("click", function(){
     countryClick("turkey", "Turkey");
+});
+
+//BUTTPN HOVERSTATES
+function buttonHover(count){
+    count.style.opacity = 0;
+}
+
+function buttonLeave(count){
+    count.style.opacity = 1;
+}
+
+germanybut.addEventListener("mouseover", function(){
+    buttonHover(germany);
+});
+
+germanybut.addEventListener("mouseout", function(){
+    buttonLeave(germany);
+});
+
+russiabut.addEventListener("mouseover", function(){
+    buttonHover(russia);
+});
+
+russiabut.addEventListener("mouseout", function(){
+    buttonLeave(russia);
+});
+
+irelandbut.addEventListener("mouseover", function(){
+    buttonHover(ireland);
+});
+
+irelandbut.addEventListener("mouseout", function(){
+    buttonLeave(ireland);
+});
+
+portugalbut.addEventListener("mouseover", function(){
+    buttonHover(portugal);
+});
+
+portugalbut.addEventListener("mouseout", function(){
+    buttonLeave(portugal);
+});
+
+turkeybut.addEventListener("mouseover", function(){
+    buttonHover(turkey);
+});
+
+turkeybut.addEventListener("mouseout", function(){
+    buttonLeave(turkey);
+});
+
+ukrainebut.addEventListener("mouseover", function(){
+    buttonHover(ukraine);
+});
+
+ukrainebut.addEventListener("mouseout", function(){
+    buttonLeave(ukraine);
+});
+
+ukrainebut.addEventListener("mouseover", function(){
+    buttonHover(ukraine);
+});
+
+ukrainebut.addEventListener("mouseout", function(){
+    buttonLeave(ukraine);
+});
+
+norwaybut.addEventListener("mouseover", function(){
+    buttonHover(norway);
+});
+
+norwaybut.addEventListener("mouseout", function(){
+    buttonLeave(norway);
+});
+
+spainbut.addEventListener("mouseover", function(){
+    buttonHover(spain);
+});
+
+spainbut.addEventListener("mouseout", function(){
+    buttonLeave(spain);
+});
+
+croatiabut.addEventListener("mouseover", function(){
+    buttonHover(croatia);
+});
+
+croatiabut.addEventListener("mouseout", function(){
+    buttonLeave(croatia);
+});
+
+finlandbut.addEventListener("mouseover", function(){
+    buttonHover(finland);
+});
+
+finlandbut.addEventListener("mouseout", function(){
+    buttonLeave(finland);
+});
+
+francebut.addEventListener("mouseover", function(){
+    buttonHover(france);
+});
+
+francebut.addEventListener("mouseout", function(){
+    buttonLeave(france);
+});
+
+swedenbut.addEventListener("mouseover", function(){
+    buttonHover(sweden);
+});
+
+swedenbut.addEventListener("mouseout", function(){
+    buttonLeave(sweden);
+});
+
+austriabut.addEventListener("mouseover", function(){
+    buttonHover(austria);
+});
+
+austriabut.addEventListener("mouseout", function(){
+    buttonLeave(austria);
+});
+
+belgiumbut.addEventListener("mouseover", function(){
+    buttonHover(belgium);
+});
+
+belgiumbut.addEventListener("mouseout", function(){
+    buttonLeave(belgium);
+});
+
+italybut.addEventListener("mouseover", function(){
+    buttonHover(italy);
+});
+
+italybut.addEventListener("mouseout", function(){
+    buttonLeave(italy);
+});
+
+slovakiabut.addEventListener("mouseover", function(){
+    buttonHover(slovakia);
+});
+
+slovakiabut.addEventListener("mouseout", function(){
+    buttonLeave(slovakia);
+});
+
+greecebut.addEventListener("mouseover", function(){
+    buttonHover(greece);
+});
+
+greecebut.addEventListener("mouseout", function(){
+    buttonLeave(greece);
+});
+
+polandbut.addEventListener("mouseover", function(){
+    buttonHover(poland);
+});
+
+polandbut.addEventListener("mouseout", function(){
+    buttonLeave(poland);
+});
+
+ukbut.addEventListener("mouseover", function(){
+    buttonHover(uk);
+});
+
+ukbut.addEventListener("mouseout", function(){
+    buttonLeave(uk);
+});
+
+netherlandsbut.addEventListener("mouseover", function(){
+    buttonHover(netherlands);
+});
+
+netherlandsbut.addEventListener("mouseout", function(){
+    buttonLeave(netherlands);
 });

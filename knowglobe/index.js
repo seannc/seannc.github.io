@@ -1,5 +1,6 @@
 var playcap = document.getElementById("playcap")
 var studycap = document.getElementById("studycap")
+var tutorialcap = document.getElementById("tutorialcap")
 
 //NAV ANIMATIONS
 document.getElementById("play").addEventListener("mouseover", function(){
@@ -24,5 +25,22 @@ document.getElementById("study").addEventListener("mouseout", function(){
     studycap.style.visibility = "hidden";
     studycap.style.opacity = 0;
     studycap.style.marginTop = "-50px";
+});
+
+//PICK YOUR GAME
+var europeop = document.getElementById("europe"),
+    europebuttons = document.getElementById("europebuttons"),
+    eurobg = document.getElementById("eurobg")
+
+europeop.addEventListener("mouseover", function(){
+    europebuttons.style.visibility = "visible";
+    europebuttons.style.opacity = 1;
+    eurobg.style.filter = "blur(5px)";
+});
+
+europeop.addEventListener("mouseout", function(){
+    europebuttons.style.visibility = "hidden";
+    europebuttons.style.opacity = 0;
+    eurobg.style.filter = "none";
 });
 

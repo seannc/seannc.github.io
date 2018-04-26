@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Europe</title>
+    <title>Europe - Geography</title>
     <link href="playsvg.css" type="text/css" rel="stylesheet">
     <link href="ingame.css" type="text/css" rel="stylesheet">
     <link href="menu.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500" rel="stylesheet">
+    <link rel="icon" href="imgs/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
     <a href="index.html">
             <img id="logotop" src="imgs/logohor.png"></a>
+    <div id=score>0/20</div>
     <div id="icons">
         <a href="play.html" id="play" class=other>
                     <img class="icon" src="imgs/play.png">
@@ -23,11 +25,27 @@
                     <div class="iconcap" id="studycap">study</div>
                 </a>
     </div>
-    <div id="title">Europe</div>
+    <div id="title">europe</div>
     <div id=caption>
         Match the flag to it's location
     </div>
     <img id="cursor">
+    <div id="wrongwarning" class="popup">
+        <div class="popbox">
+            <div class="poptext">If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.
+            <br><br>
+            Click anywhere to close</div>
+        </div>
+        <div class="popshadow"></div>
+    </div>
+    <div id="whatwarning" class="popup">
+        <div class="popbox">
+            <div class="poptext">If you're stuck, pick a flag and hit this button to find out the country's name.
+            <br><br>
+            Click anywhere to close</div>
+        </div>
+        <div class="popshadow"></div>
+    </div>
     <div id="flagsleft">
         <img src="imgs/flags/germany.png" class=flagtab id=germanyf>
         <img src="imgs/flags/russia.png" class=flagtab id=russiaf>
@@ -1607,6 +1625,12 @@
 </g>
 </svg>
     <img src="imgs/flags.svg" id="flagmap">
+    
+    <div id=controls>
+        <hr>
+        instructions: <span id=desc>click the flag to select it, then click the country it belongs to<br></span>
+        <hr>
+    </div>
 
     <script src="play.js"></script>
     <script src="index.js"></script>
