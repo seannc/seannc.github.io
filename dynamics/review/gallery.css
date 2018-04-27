@@ -1,0 +1,87 @@
+#menu{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+	left: 0;
+	top: 0;
+	background-color: #DCDEFF;
+	transition: 0.5s;
+	cursor: pointer;
+	z-index: 2;
+}
+#display{
+	width: 30%;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #FFBAE9;
+	text-align: center;
+}
+.newDiv{
+	width: 120px;
+	height: 150px;
+	margin: 10px 10px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #FF0098;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.newImg{
+	width: 100%;
+	height: 100px;
+}
+.newTitle{
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	background-color: white;
+}
+.newDesc{
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	background-color: white;
+}
+#gallery{
+	width: 100%;
+	height: 100vh
+}
+#background{
+	width: 70%;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s;
+	background-size: cover;
+	background-position: center;
+}
+#title{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	background-color: #DCDEFF; 
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 10px;
+}
+#desc{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	background-color: #DCDEFF; 
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 10px;
+}

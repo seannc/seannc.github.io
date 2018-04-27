@@ -1,0 +1,15 @@
+.items {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.cap {
+    width: 100%;
+    text-align: center;
+}
