@@ -207,9 +207,9 @@ function leftPick(cname){
     ukf.style.display = "inline-block";
     }
     
-    if(wrongnum == 10){
-        //document.getElementById("wrongwarning").style.opacity = 1;
-        //document.getElementById("wrongwarning").style.display = "block";
+    if(wrongnum == 7){
+        wrongpop.style.opacity = 1;
+        wrongpop.style.display = "block";
         alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
         wrongnum = 0;
     }
@@ -247,9 +247,9 @@ function rightPick(cname){
     polandf.style.display = "inline-block";
     }
     
-    if(wrongnum == 10){
-        //document.getElementById("wrongwarning").style.opacity = 1;
-        //document.getElementById("wrongwarning").style.display = "block";
+    if(wrongnum == 7){
+        wrongpop.style.opacity = 1;
+        wrongpop.style.display = "block";
         alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
         wrongnum = 0;
     }
@@ -492,7 +492,18 @@ helppop.addEventListener("click", function(){
 
 //SCOREKEEPING
 var score = document.getElementById("score")
+var win = document.getElementById("win")
 
 document.getElementById("europemapsvg").addEventListener("click", function(){
     score.innerHTML = leftnum+rightnum+"/20";
+    
+    if(leftnum+rightnum == 20){
+        win.style.opacity = 1;
+        win.style.visibility = "visible";
+    }
+});
+
+win.addEventListener("click", function(){
+    win.style.visibility = "hidden";
+    win.style.opacity = "0";
 });

@@ -32,6 +32,10 @@ var europeop = document.getElementById("europe"),
     europebuttons = document.getElementById("europebuttons"),
     eurobg = document.getElementById("eurobg")
 
+var asiaop = document.getElementById("asia"),
+    asiabuttons = document.getElementById("asiabuttons"),
+    asiabg = document.getElementById("asiabg")
+
 europeop.addEventListener("mouseover", function(){
     europebuttons.style.visibility = "visible";
     europebuttons.style.opacity = 1;
@@ -44,3 +48,14 @@ europeop.addEventListener("mouseout", function(){
     eurobg.style.filter = "none";
 });
 
+asiaop.addEventListener("mouseover", function(){
+    asiabuttons.style.visibility = "visible";
+    asiabuttons.style.opacity = 1;
+    asiabg.style.filter = "blur(5px)";
+});
+
+asiaop.addEventListener("mouseout", function(){
+    asiabuttons.style.visibility = "hidden";
+    asiabuttons.style.opacity = 0;
+    asiabg.style.filter = "none";
+});

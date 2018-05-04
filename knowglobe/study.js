@@ -47,6 +47,14 @@ var ukbut = document.getElementById("ukbut"),
     turkeybut = document.getElementById("turkeybut")
 
 function countryClick(title, name){
+    infolink.style.visibility = "hidden";
+    contentpage.style.visibility = "visible";
+    flag.src = "imgs/flags/"+title+".png";
+    countryname.innerHTML = name;
+}
+
+function quizableClick(title, name){
+    infolink.style.visibility = "visible";
     contentpage.style.visibility = "visible";
     flag.src = "imgs/flags/"+title+".png";
     infolink.href = "info/"+title+".html";
@@ -66,11 +74,11 @@ portugal.addEventListener("click", function(){
 });
 
 spain.addEventListener("click", function(){
-    countryClick("spain", "Spain");
+    quizableClick("spain", "Spain");
 });
 
 france.addEventListener("click", function(){
-    countryClick("france", "France");
+    quizableClick("france", "France");
 });
 
 belgium.addEventListener("click", function(){
@@ -82,7 +90,7 @@ netherlands.addEventListener("click", function(){
 });
 
 germany.addEventListener("click", function(){
-    countryClick("germany", "Germany");
+    quizableClick("germany", "Germany");
 });
 
 austria.addEventListener("click", function(){
@@ -106,7 +114,7 @@ norway.addEventListener("click", function(){
 });
 
 sweden.addEventListener("click", function(){
-    countryClick("sweden", "Sweden");
+    quizableClick("sweden", "Sweden");
 });
 
 finland.addEventListener("click", function(){
@@ -114,11 +122,11 @@ finland.addEventListener("click", function(){
 });
 
 russia.addEventListener("click", function(){
-    countryClick("russia", "Russia");
+    quizableClick("russia", "Russia");
 });
 
 croatia.addEventListener("click", function(){
-    countryClick("croatia", "Croatia");
+    quizableClick("croatia", "Croatia");
 });
 
 slovakia.addEventListener("click", function(){
@@ -308,4 +316,84 @@ netherlandsbut.addEventListener("mouseover", function(){
 
 netherlandsbut.addEventListener("mouseout", function(){
     buttonLeave(netherlands);
+});
+
+ukbut.addEventListener("click", function(){
+    countryClick("uk", "United<br>Kingdom");
+});
+
+irelandbut.addEventListener("click", function(){
+    countryClick("ireland", "Ireland");
+});
+
+portugalbut.addEventListener("click", function(){
+    countryClick("portugal", "Portugal");
+});
+
+spainbut.addEventListener("click", function(){
+    quizableClick("spain", "Spain");
+});
+
+francebut.addEventListener("click", function(){
+    quizableClick("france", "France");
+});
+
+belgiumbut.addEventListener("click", function(){
+    countryClick("belgium", "Belgium");
+});
+
+netherlandsbut.addEventListener("click", function(){
+    countryClick("netherlands", "Netherlands");
+});
+
+germanybut.addEventListener("click", function(){
+    quizableClick("germany", "Germany");
+});
+
+austriabut.addEventListener("click", function(){
+    countryClick("austria", "Austria");
+});
+
+italybut.addEventListener("click", function(){
+    countryClick("italy", "Italy");
+});
+
+polandbut.addEventListener("click", function(){
+    countryClick("poland", "Poland");
+});
+
+ukrainebut.addEventListener("click", function(){
+    countryClick("ukraine", "Ukraine");
+});
+
+norwaybut.addEventListener("click", function(){
+    countryClick("norway", "Norway");
+});
+
+swedenbut.addEventListener("click", function(){
+    quizableClick("sweden", "Sweden");
+});
+
+finlandbut.addEventListener("click", function(){
+    countryClick("finland", "Finland");
+});
+
+russiabut.addEventListener("click", function(){
+    quizableClick("russia", "Russia");
+});
+
+croatiabut.addEventListener("click", function(){
+    quizableClick("croatia", "Croatia");
+});
+
+slovakiabut.addEventListener("click", function(){
+    countryClick("slovakia", "Slovakia");
+});
+
+greecebut.addEventListener("click", function(){
+    countryClick("greece", "Greece");
+});
+
+turkeybut.addEventListener("click", function(){
+    countryClick("turkey", "Turkey");
 });

@@ -3,15 +3,7 @@
     height: 500px;
     text-align: center;
     display: inline-block;
-    position: absolute;
-}
-
-#europe {
-    right: 50px;
-}
-
-#namerica {
-    left: 50px;
+    margin: 20px
 }
 
 .menuicon {
@@ -42,13 +34,14 @@
     font-weight: 100;
 }
 
-#menu {
+#themenu {
     top: 250px;
     position: absolute;
-    width: 90vw;
     left: 0px;
     right: 0px;
     margin: auto;
+    width: 90vw;
+    text-align: center;
 }
 
 #locked {
@@ -80,8 +73,8 @@
 
 .options {
     position: absolute;
-    top: 170px;
-    visibility: hidden;
+    width: 500px;
+    top: 180px;
     opacity: 0;
     transition: 0.5s;
     z-index: 2;

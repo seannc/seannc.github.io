@@ -154,6 +154,7 @@ a {
     background-color: #0071bc;
     color: white;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #reset, #clear {
@@ -226,7 +227,7 @@ a {
     width: 330px;
     left: 90px;
     position: absolute;
-    top: 270px;
+    top: 190px;
 }
 
 .pickone {
@@ -237,12 +238,24 @@ a {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
     width: 115px;
     height: 25px;
     display: inline-block;
     margin: 5px 10px;
-    padding-top: 5px;
+    padding-top: 8px;
+}
+
+.colcap {
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 265px;
+    margin-left: 5px;
+    margin: 10px;
+    letter-spacing: 2px;
 }
 
 .pickone:hover {
@@ -270,8 +283,8 @@ a {
     font-family: 'Montserrat', sans-serif;
     color: white;
     width: 90%;
-    height: 100px;
-    top:0px;
+    height: 100%;
+    top:40px;
     bottom: 0px;
     left:0px;
     right: 0px;
@@ -295,6 +308,11 @@ a {
     opacity: 0;
     transition: opacity 0.5s;
     cursor: pointer;
+}
+
+.popup a {
+    text-decoration: underline;
+    color: #02395d;
 }
 
 #score {

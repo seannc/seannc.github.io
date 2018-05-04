@@ -4,7 +4,7 @@
     cursor: pointer;
 }
 
-#spain polygon:hover {
+#spain path:hover {
     opacity: 0;
     transition: 0.2s;
     cursor: pointer;
@@ -70,7 +70,7 @@
     cursor: pointer;
 }
 
-#norway polygon:hover {
+#norway path:hover {
     opacity: 0;
     transition: 0.2s;
     cursor: pointer;
@@ -82,7 +82,7 @@
     cursor: pointer;
 }
 
-#portugal polygon:hover {
+#portugal path:hover {
     opacity: 0;
     transition: 0.2s;
     cursor: pointer;
@@ -113,6 +113,126 @@
 }
 
 #ukraine path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#china path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#mongolia polygon:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#india path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#japan path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#srilanka path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#iran path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#taiwan path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#bangladesh path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#cambodia path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#afghanistan polygon:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#indonesia path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#southkorea path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#philippines path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#vietnam path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#myanmar path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#thailand path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#pakistan polygon:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#kazakhstan polygon:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#malaysia path:hover {
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#northkorea path:hover {
     opacity: 0;
     transition: 0.2s;
     cursor: pointer;
