@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Europe - Geography</title>
-    <link href="playsvg.css" type="text/css" rel="stylesheet">
     <link href="ingame.css" type="text/css" rel="stylesheet">
     <link href="menu.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500" rel="stylesheet">
@@ -32,7 +31,7 @@
     <img id="cursor">
     <div id="wrongwarning" class="popup">
         <div class="popbox">
-            <div class="poptext">If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.
+            <div class="poptext">If you're having trouble, <a href=studyeurope.html>go back and study</a> or ask the 'what country is this?' button for help.
                 <br><br> Click anywhere to close</div>
         </div>
         <div class="popshadow"></div>
@@ -46,8 +45,10 @@
     </div>
     <div id="win" class="popup">
         <div class="popbox">
-            <div class="poptext">Congratulations!<br><br>Go back the the <a href="index.html">main menu</a> for more games and activities.
-                <br><br> Click anywhere to close</div>
+            <div class="poptext">Congratulations!<br>Go back the the <a href="index.html">main menu</a> for more games and activities.
+                <br><br>
+                Wrong answers: <span id=wrongcounter></span><br>
+                Click anywhere to close</div>
         </div>
         <div class="popshadow"></div>
     </div>

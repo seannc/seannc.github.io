@@ -173,7 +173,8 @@ document.body.addEventListener("mousemove", function(ev){
 //COUNTRY MATCHING
 var leftnum = 0,
     rightnum = 0,
-    wrongnum = 0;
+    wrongnum = 0,
+    wrongcount = 0;
 
 function leftPick(cname){
     if(thename == cname) {
@@ -184,7 +185,9 @@ function leftPick(cname){
         //console.log(leftnum);
     } else{
         wrongnum++;
+        wrongcount++;
         console.log(wrongnum);
+        console.log(wrongcount);
     }
     
     if(leftnum == 1){
@@ -209,8 +212,7 @@ function leftPick(cname){
     
     if(wrongnum == 7){
         wrongpop.style.opacity = 1;
-        wrongpop.style.display = "block";
-        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
+        wrongpop.style.visibility = "visible";
         wrongnum = 0;
     }
 };
@@ -224,7 +226,9 @@ function rightPick(cname){
         //console.log(rightnum);
     } else{
         wrongnum++;
+        wrongcount++;
         console.log(wrongnum);
+        console.log(wrongcount);
     }
     
     if(rightnum == 1){
@@ -249,11 +253,15 @@ function rightPick(cname){
     
     if(wrongnum == 7){
         wrongpop.style.opacity = 1;
-        wrongpop.style.display = "block";
-        alert("If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.");
+        wrongpop.style.visibility = "visible";
         wrongnum = 0;
     }
 };
+
+wrongpop.addEventListener("click", function(){
+    wrongpop.style.visibility = "hidden";
+    wrongpop.style.opacity = "0";
+});
 
 bangladesh.addEventListener("click", function(){
     leftPick(this);
@@ -493,9 +501,11 @@ helppop.addEventListener("click", function(){
 //SCOREKEEPING
 var score = document.getElementById("score")
 var win = document.getElementById("win")
+var wrongcounter = document.getElementById("wrongcounter")
 
 document.getElementById("europemapsvg").addEventListener("click", function(){
     score.innerHTML = leftnum+rightnum+"/20";
+    wrongcounter.innerHTML = wrongcount;
     
     if(leftnum+rightnum == 20){
         win.style.opacity = 1;

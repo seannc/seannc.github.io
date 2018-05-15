@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Europe - Geography</title>
-    <link href="playsvg.css" type="text/css" rel="stylesheet">
     <link href="ingame.css" type="text/css" rel="stylesheet">
     <link href="menu.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500" rel="stylesheet">
@@ -32,7 +31,7 @@
     <img id="cursor">
     <div id="wrongwarning" class="popup">
         <div class="popbox">
-            <div class="poptext">If you're having trouble, click the book icon to go back and study, or ask the 'what country is this' button for help.
+            <div class="poptext">If you're having trouble, <a href=studyasia.html>go back and study</a> or ask the 'what country is this?' button for help.
                 <br><br> Click anywhere to close</div>
         </div>
         <div class="popshadow"></div>
@@ -46,12 +45,12 @@
     </div>
     <div id="win" class="popup">
         <div class="popbox">
-            <div class="poptext">Congratulations!<br><br>Go back the the <a href="index.html">main menu</a> for more games and activities.
-                <br><br> Click anywhere to close</div>
+            <div class="poptext">Congratulations!<br>Go back the the <a href="index.html">main menu</a> for more games and activities.
+                <br><br> Wrong answers: <span id=wrongcounter></span><br> Click anywhere to close<br><br></div>
         </div>
         <div class="popshadow"></div>
     </div>
-    
+
     <div id="flagsleft">
         <img src="imgs/flags/mongolia.png" class=flagtab id=mongoliaf>
         <img src="imgs/flags/india.png" class=flagtab id=indiaf>
@@ -85,8 +84,7 @@
         <div id="thatsthis"></div>
     </div>
 
-<svg id="europemapsvg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 214.3 155.5" style="enable-background:new 0 0 214.3 155.5;" xml:space="preserve">
+    <svg id="europemapsvg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 214.3 155.5" style="enable-background:new 0 0 214.3 155.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#2A665A;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#11937A;}

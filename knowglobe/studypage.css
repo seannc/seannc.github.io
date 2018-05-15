@@ -1,0 +1,118 @@
+/*THE CSS FOR THE INDIVIDUAL COUNTRY PAGES*/
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#contentpage {
+    left:0px;
+    right:0px;
+    margin: auto;
+    position: relative;
+    width: 90vw;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#leftimgs {
+    width: 340px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+
+#rightimgs {
+    width: 340px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+#leftimgs div, #rightimgs div {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#rightimgs img {
+    width: 300px;
+    border-bottom-left-radius: 50px;
+}
+
+#theflag {
+    width: 300px;
+    height: 200px;
+}
+
+#thelocation {
+    width: 300px;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom-left-radius: 50px;
+}
+
+#contentpage div {
+    visibility: visible;
+}
+
+#contentpage {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#general {
+    width: 45vw;
+    text-align: left;
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+    left: 340px;
+}
+#general b {
+    margin-right: 5px;
+}
+
+#general p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#funfacts {
+    width: 45%;
+    text-align: left;
+    display: inline-block;
+    top: 150px;
+    position: absolute;
+    left: 340px;
+}
+
+#funfacts p {
+    margin:0px;
+    margin-bottom: 15px;
+}
+
+#funfacts h2 {
+    text-align: center;
+}
+
+.listing {
+    top: 500px;
+    position: absolute;
+    text-align: center;
+    width: 90vw;
+}
+
+.listing img {
+    width: 250px;
+    border-bottom-left-radius: 50px;
+}
+
+.profile {
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.profile h2 {
+    margin: 5px;
+    font-size: 20px;
+}

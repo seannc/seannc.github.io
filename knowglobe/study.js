@@ -78,7 +78,7 @@ spain.addEventListener("click", function(){
 });
 
 france.addEventListener("click", function(){
-    quizableClick("france", "France");
+    countryClick("france", "France");
 });
 
 belgium.addEventListener("click", function(){
@@ -126,7 +126,7 @@ russia.addEventListener("click", function(){
 });
 
 croatia.addEventListener("click", function(){
-    quizableClick("croatia", "Croatia");
+    countryClick("croatia", "Croatia");
 });
 
 slovakia.addEventListener("click", function(){

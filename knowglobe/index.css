@@ -1,3 +1,5 @@
+/*THE CSS FOR THE LANDING PAGE*/
+
 #logo {
     height: 300px;
     position: absolute;
@@ -112,6 +114,14 @@
         width: 400px;
         top: -150px;
     }
+    #sean {
+        float: none;
+        margin: none;
+    }
+    #luigi {
+        float: none;
+        margin: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -122,4 +132,40 @@
         width: 90vw;
         height: auto;
     }
+}
+
+#team {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    letter-spacing: 1px;
+    background-color: rgba(255,255,255,0.2);
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.role {
+    font-weight: 100;
+}
+
+hr {
+    width: 80vw;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#sean {
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+#luigi {
+    width: 40%;
+    float: right;
+    margin-right: 50px;
 }
