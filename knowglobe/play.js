@@ -153,6 +153,7 @@ turkeyf.addEventListener("click", function(){
     thename = turkey;
 });
 
+//CLEARS CURSOR AND WCIT? BUTTON
 document.getElementById("clear").addEventListener("click", function(){
     cursor.style.display = "none";
     thename = "";
@@ -160,6 +161,7 @@ document.getElementById("clear").addEventListener("click", function(){
     help.style.opacity = 0;
 });
 
+//REFRESHES THE PAGE
 document.getElementById("reset").addEventListener("click", function(){
     location.reload();
 });

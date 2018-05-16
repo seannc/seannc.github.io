@@ -312,9 +312,10 @@ a {
     cursor: pointer;
 }
 
-.popup a {
+.popup a, #controls a, #end a {
     text-decoration: underline;
-    color: #02395d;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 #score {
@@ -356,4 +357,13 @@ hr {
 
 #europemapsvg {
     cursor: pointer;
+}
+
+#buttonlist {
+    width: 300px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 300px;
+    position: absolute;
 }
