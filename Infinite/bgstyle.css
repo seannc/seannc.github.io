@@ -159,6 +159,8 @@
 #sheik {background-color: #746ED2}
 #toonlink {background-color: #ABD158}
 #younglink {background-color: #75af46}
+#championlink {background-color: #c7eafa}
+#championzelda {background-color: #ffee95}
 #impa {background-color: #6EB9E4}
 #wolflink {background-color: #84D0CF}
 #ghirahim {background-color: #B28636}
@@ -371,6 +373,7 @@
 #piplup {background-color: #f2ee93}
 #lopunny {background-color: #d1b036}
 #garchomp {background-color: #505a7b}
+#croagunk {background-color: #E4952F}
 #roserade {background-color: #3a7b34}
 #abomasnow {background-color: #57716b}
 #dusknoir {background-color: #616f08}
@@ -561,10 +564,12 @@
 #elma {background-color: #6DB9AF}
 #rex {background-color: #c7514d}
 #pyra {background-color: #29b597}
+#toraandpoppi {background-color: mediumpurple}
 #metalface {background-color: #a2974c}
 #xord {background-color: #895127}
 #mrgameandwatch {background-color: #A3A190}
 #johnsolver {background-color: #d1ca57}
+#wolfgaw {background-color: #6b8fb2}
 #rob {background-color: #B1B5BB}
 #professorhector {background-color: #3F57A7}
 #iceclimbers {background-color: #6F5AD3}
@@ -576,6 +581,17 @@
 #octoling {background-color: #BB5E54}
 #djoctavio {background-color: #a75fa2}
 #capncuttlefish {background-color: #dbd168}
+#miibrawler {background-color: #bf6f6f}
+#miiswordfighter {background-color: #5f87a0}
+#miigunner {background-color: #ffb086}
+#miimage {background-color: plum}
+#masterhand {background-color: #e6890a}
+#crazyhand {background-color: #3553a2}
+#tabuu {background-color: #4d49c4}
+#primid {background-color: #613E80}
+#galleom {background-color: #5c483f}
+#duon {background-color: #4b73cc}
+#dragonking {background-color: #8f86ff}
 #springman {background-color: #3C66A4}
 #ribbongirl {background-color: #C36D26}
 #ninjara {background-color: #304E4D}
@@ -586,6 +602,7 @@
 #kidcobra {background-color: #5A4895}
 #helix {background-color: #A25A9D}
 #misango {background-color: #869F39}
+#drcoyle {background-color: #263F14}
 #iceclimbers {background-color: #6F5AD3}
 #polarbear {background-color: #e269c2}
 #isaac {background-color: #f8ab4e}
@@ -616,13 +633,6 @@
 #muddymole {background-color: #896231}
 #sakiamamiya {background-color: #d4bc5c}
 #isajo {background-color: #9ad7e6}
-#masterhand {background-color: #e6890a}
-#crazyhand {background-color: #3553a2}
-#tabuu {background-color: #4d49c4}
-#primid {background-color: #613E80}
-#galleom {background-color: #5c483f}
-#duon {background-color: #4b73cc}
-#dragonking {background-color: #8f86ff}
 #wonderred {background-color: #C56D6A}
 #wonderblue {background-color: #93BEF8}
 #wonderpink {background-color: #faaaed}
@@ -633,7 +643,9 @@
 #monita {background-color: #73C3E0}
 #matt {background-color: #DF7836}
 #arcadebunny {background-color: #D3433B}
+#snipandclip {background-color: #98FCC7}
 #toyconrobot {background-color: #D6C39D}
+#laboman {background-color: #79B5DD}
 #musashi {background-color: #E0A14A}
 #trex {background-color: #C63E1D}
 #tricera {background-color: #F5E03F}
@@ -662,6 +674,7 @@
 #nicky {background-color: #ffd3da}
 #vince {background-color: #4f5098}
 #lip {background-color: #79B94E}
+#cordelia {background-color: #ffd834}
 #drwright {background-color: #5B4E8C}
 #hakkun {background-color: #B999D8}
 #ftype {background-color: #9f605a}
@@ -703,6 +716,7 @@
 #ayumi {background-color: #508cff}
 #hiro {background-color: #d39285}
 #trax {background-color: #494f67}
+#teeshotteam {background-color: #ef95a3}
 #goose {background-color: #ff603e}
 #ryota {background-color: #546fc1}
 #kensuke {background-color: #8d94bf}
@@ -720,6 +734,7 @@
 #zip {background-color: #e34648}
 #omminus {background-color: #7950ed}
 #soundkun {background-color: #eb7051}
+#kensakurobot {background-color: #afe8ff}
 #zael {background-color: #EDDFC8}
 #aeron {background-color: #C3903C}
 #heracles {background-color: #CEB77C}
@@ -727,6 +742,9 @@
 #warriormechgauss {background-color: #5a5c79}
 #ashleyrobbins {background-color: #bf9892}
 #aisya {background-color: #CB9051}
+#kylehyde {background-color: #96a1b1}
+#orville {background-color: #9e8bc6}
+#welt {background-color: #c4678b}
 #endoumamoru {background-color: #48867f}
 #electroplankton {background-color: #31549A}
 #raymondbryce {background-color: #5A503D}
@@ -741,6 +759,7 @@
 #songbird {background-color: #aaff72}
 #artstyle {background-color: #dedede}
 #diskun {background-color: #a39862}
+#parabo {background-color: #8EC6AF}
 #captainn {background-color: #c76b63}
 #nester {background-color: #c45831}
 #minikangaroo {background-color: #D77029}
@@ -787,11 +806,13 @@
 #zero {background-color: #354ab4}
 #bass {background-color: #6F5493}
 #drwilly {background-color: #842721}
+#x {background-color: steelblue}
 #sigma {background-color: #46672f}
 #tronbonne {background-color: #beaa22}
 #roll {background-color: #ff837b}
 #rush {background-color: #b26874}
 #gutsman {background-color: #DC9E45}
+#yellowdevil {background-color: #e07430}
 #magmadragoon {background-color: #86483b}
 #theskiver {background-color: #5d8334}
 #pacman {background-color: #E5AF49}
@@ -882,6 +903,8 @@
 #phoenixwright {background-color: #8694AA}
 #morrigan {background-color: #DD96A3}
 #felicia {background-color: #b9e4ff}
+#hsienko {background-color: #986098}
+#bbhood {background-color: #862020}
 #monsterhunter {background-color: #CF955C}
 #jillvalentine {background-color: #7B94B0}
 #leonkennedy {background-color: #b4592c}
@@ -895,6 +918,7 @@
 #captaincommando {background-color: #e2e863}
 #tessa {background-color: #6F2A27}
 #zackandwiki {background-color: #ffb79c}
+#hayato {background-color: #556789}
 #shinkazama {background-color: #a84747}
 #taizohori {background-color: #C26921}
 #susumuhori {background-color: #86ABFB}
@@ -906,6 +930,7 @@
 #donchan {background-color: #ff8d65}
 #gyaraga {background-color: #5570D1}
 #valkyrie {background-color: #8dcc6a}
+#gil {background-color: #86c4eb}
 #ricktaylor {background-color: #D9312B}
 #kosmos {background-color: #C8DEFD}
 #clovis {background-color: #ffff9e}
@@ -946,6 +971,7 @@
 #ricky {background-color: #c45917}
 #spiralknight {background-color: #40a8a8}
 #epsilon {background-color: #be8214}
+#drcaine {background-color: #8d200c}
 #cyborg127 {background-color: #4b4bc7}
 #hornet {background-color: slategrey}
 #conker {background-color: #7b7bff}
@@ -1092,6 +1118,7 @@
 #hercules {background-color: #BF3DB1}
 #davy {background-color: #a8c6ff}
 #glover {background-color: #C7643E}
+#buckbumble {background-color: #d1b000}
 #brian {background-color: #5672A8}
 #boyandblob {background-color: #7C84BD}
 #patriciawagon {background-color: #D8261C}
@@ -1115,6 +1142,7 @@
 #peacock {background-color: #de72a0}
 #commandervideo {background-color: #9acdff}
 #castlecrashers {background-color: rebeccapurple}
+#hatty {background-color: #d94949}
 #alienhominid {background-color: #8af78a}
 #cadence {background-color: #D06FDC}
 #flinthook {background-color: #5b92d1}
@@ -1138,6 +1166,8 @@
 #wilson {background-color: seagreen}
 #terrarian {background-color: lightseagreen}
 #speedrunner {background-color: mediumvioletred}
+#hue {background-color: #8668F7}
+#val {background-color: #BACD4A}
 #player {background-color: #2f6fff}
 #kaitana {background-color: #54aaaa}
 #batter {background-color: #DECB3C}
@@ -1149,7 +1179,11 @@
 #jacket {background-color: #366036}
 #josef {background-color: #6f6fd8}
 #botanicula {background-color: #B5BF67}
+#boy {background-color: #5E605F}
 #dive {background-color: #A31C14}
+#rambro {background-color: #468046}
+#dustman {background-color: slategrey}
+#fin {background-color: #cb9454}
 #dave {background-color: #BA2F9B}
 #duck {background-color: #3F4256}
 #knight {background-color: #c7ba35}
@@ -1162,6 +1196,7 @@
 #bread {background-color: #eacca5}
 #fancypantsman {background-color: #ffe1aa}
 #lugaru {background-color: #579357}
+#teslamancer {background-color: #D27529}
 #madeline {background-color: #ff8659}
 #irzyka {background-color: #bc9efa}
 #fishy {background-color: #ac2d2d}
@@ -1201,6 +1236,7 @@
 #volt {background-color: #ffff6e}
 #bodvar {background-color: #7cb78c}
 #ragnir {background-color: darkred}
+#orion {background-color: #ffd875}
 #azoth {background-color: #6684ba}
 #sirroland {background-color: #587da2}
 #cassidy {background-color: #625928}
@@ -1289,6 +1325,7 @@
 #oliver {background-color: #b44d8d}
 #geolyte {background-color: #a8ffff}
 #patapon {background-color: #e6e6e6}
+#spikan {background-color: #129a3c}
 #pretzelhausen {background-color: #f0ab80}
 #kerbonaut {background-color: #3b3b71}
 #laharl {background-color: #00a7ff}
@@ -1336,6 +1373,7 @@
 #calhoun {background-color: #10919b}
 #tron {background-color: #80dddd}
 #segatasanshiro {background-color: #4646d4}
+#pepsiman {background-color: steelblue}
 #jamesbond {background-color: #c94848}
 #mickeymouse {background-color: goldenrod}
 #popeye {background-color: #3c883c}
