@@ -123,7 +123,7 @@ body {
     transition: 2s;
 }
 #mountiehat {
-    transform-origin: bottom;
+    transform-origin: 22% 55%;
     transition: 0.7s;
 }
 #mountie {
@@ -135,12 +135,12 @@ body {
     transition: 1s;
 }
 #moosehead {
-    transform-origin: right;
+    transform-origin: 53% 60%;
     transition: 1s;
 }
 #tree{
     transition: 1s;
-    transform-origin: center;
+    transform-origin: 90% 60%;
 }
 #trunk {
     cursor: pointer;
@@ -196,7 +196,7 @@ body {
 }
 
 #beavertail {
-    transform-origin: right;
+    transform-origin: 85% 85%;
     transition: 0.5s;
 }
 #beaver {
@@ -242,11 +242,11 @@ body {
 
 #minute {
     transition: 15s;
-    transform-origin: bottom;
+    transform-origin: 50% 33.5%;
 }
 #hour {
     transition: 30s;
-    transform-origin: bottom;
+    transform-origin: 50% 33.5%;
 }
 #clock {
     cursor: pointer;
@@ -254,7 +254,7 @@ body {
 #topflagup {
     transform: scale(0, 1);
     transition: 1s;
-    transform-origin: left;
+    transform-origin: 50%;
 }
 #roof {
     cursor: pointer;
