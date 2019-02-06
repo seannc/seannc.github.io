@@ -102,18 +102,38 @@ moose.addEventListener("click", function () {
   }
 });
 
+var treeclick = 1;
 tree.addEventListener("click", function () {
-  leaves.classList.add("shakeclass");
   bthree.style.opacity = "1";
   bthree.style.visibility = "visible";
   leafnoise.play();
+  
+  if(treeclick == 1){
+    leaves.classList.add("shakeclass");
+    leaves.classList.remove("shakeclasstwo");
+    treeclick = 2;
+  } else if(treeclick == 2) {
+    leaves.classList.add("shakeclasstwo");
+    leaves.classList.remove("shakeclass");
+    treeclick = 1;
+  }
 });
 
+var beaverclick = 1;
 beaver.addEventListener("click", function () {
-  tail.classList.add("slapclass");
   bfive.style.opacity = "1";
   bfive.style.visibility = "visible";
   slapnoise.play();
+  
+  if(beaverclick == 1){
+    tail.classList.add("slapclass");
+    tail.classList.remove("slapclasstwo");
+    beaverclick = 2;
+  } else if(beaverclick == 2) {
+    tail.classList.add("slapclasstwo");
+    tail.classList.remove("slapclass");
+    beaverclick = 1;
+  }
 });
 
 bigcloud.addEventListener("click", function () {
